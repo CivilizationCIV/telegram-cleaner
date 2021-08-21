@@ -1,0 +1,17 @@
+1- SET UP A WORKING NODEJS SERVER
+2- CREATE A FILE NAMED ".ENV" AND SET LIKE THIS:
+  		  CHATINGRESSO_ID=-100xxxxxxxxx
+		  CHATLINK_ID=-100xxxxxxxxx
+		  BOTLINK_TOKEN=xxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		  BOTINGRESSO_TOKEN=xxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            WHERE IN THE x YOU HAVE TO PASTE THE BOT TOKEN AND THE CHAT ID THAT YOU HAVE RETRIEVED THROUGH THE 
+                       PROCEDURE DESCRIPTED IN THE "INSTRUCTIONS FOR CONFIGURE ON TELEGRAM" FILE
+3- COPY BOT.JS AND .ENV FILE TO THE ROOT OF NODEJS
+4- FROM TERMINAL SSH INSTALL THE FOLLOW DEPENDECIES
+       npm init (set "bot.js" as "entry point")
+       npm install telegraf
+       npm install telefgraf-inline-menu
+5- RESTART THE SERVER/NODE AND TEORICALLY THE BOT IS NOW WORKING
+6- IF NOT IS WORKING (NO MESSAGE ON /systemstate), RUN ON TERMINAL "node bot.js"
+7- IF THIS THROW OUT ERROR..... RESOLVE IT!
+                                                         THIS PROCEDURE IS NOT TESTED

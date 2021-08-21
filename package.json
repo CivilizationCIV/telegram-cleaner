@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.4.1",
+    "telegraf-inline-menu": "^6.3.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+
+  "license": "MIT"
+}
